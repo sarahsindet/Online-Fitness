@@ -2,7 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0%;
-    background-color: teal; /*change the color or make it an image*/
+}
+body{
+    background-image: url(./images/woman-punching-the-hand-of-man-wearing-training-gloves-1544774.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 li,a,button{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -37,4 +41,7 @@ button{
 }
 button:hover{
     background-color: yellow;  /* change the color*/
+}
+h1,p{
+    color: whitesmoke;
 }

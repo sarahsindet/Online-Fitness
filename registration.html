@@ -6,7 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body><header>
+  <nav>
+      <ul class="nav">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./trainers.html">Trainers</a></li>
+          <li><a href="./registration.html">Registration</a></li>
+      </ul>
+      <a class="contact" href="./contact.html"><button>Contact</button></a>
+  </nav>
+
 <form action="action_page.php">
     <div class="container">
       <h1>Register</h1>
@@ -65,7 +75,27 @@
       }
     </style>
   
-
-
-</body>
+  <form action="action_page.php">
+    <div class="contain">
+      <h2>SCHEDULE A MEETING</h2>
+      <p>Please fill in this form to schedule</p>
+       <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+  
+      <label for="time"><b>Time</b></label>
+      <input type="time" placeholder="Enter time" name="time" required>
+  
+      <label for="trainer"><b>Trainer</b></label>
+      <input type="trainer" placeholder="trainer" name="trainer" required>
+<select id="Trainer" name="Trainer">
+  <option value="choose trainer">Frankie just Gym it</option>
+  <option value="choose trainer">Shir Shimani</option>
+  <option value="choose trainer">Eddy Mujumba</option>
+  <option value="choose trainer">Joan Mumbi</option>
+  <option value="choose trainer">Wouter Visser</option>
+  
+</select><hr>
+<button type="submit" class="submitbtn">Submit</button>
+<button onclick="myFunction()">Click me</button>
+</body><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </html>

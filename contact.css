@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
   }
@@ -13,7 +14,7 @@
   }
   
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: red;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -21,7 +22,7 @@
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: red;
   }
   
   /* Style the container/contact section */
@@ -33,7 +34,7 @@
   
   /* Create two columns that float next to eachother */
   .column {
-    float: right;
+    float: left;
     width: 50%;
     margin-top: 6px;
     padding: 20px;
@@ -52,4 +53,7 @@
       width: 100%;
       margin-top: 0;
     }
+  }
+  h2{
+    background-color:red;
   }

@@ -2,11 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="contacts.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body><header>
+  <nav>
+      <ul class="nav">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./trainers.html">Trainers</a></li>
+          <li><a href="./registration.html">Registration</a></li>
+      </ul>
+      <a class="contact" href="./contact.html"><button>Contact</button></a>
+  </nav>
+
     <div class="container">
         <div style="text-align:center">
           <h2>Contact Us</h2>
@@ -14,21 +24,21 @@
         </div>
         <div class="row">
           <div class="column">
-            <img src="/w3images/map.jpg" style="width:100%">
+           <img src="/home/moringa/moringa-projects/Online-Fitness/1564674550_4.jpg" style="width:100%">
           </div>
           <div class="column">
             <form action="/action_page.php">
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              <label for="lname">Last Name</label>
+             <hr> <label for="lname">Last Name</label>
               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="country">Country</label>
+              <hr><label for="country">Country</label>
               <select id="country" name="country">
                 <option value="Kenya">Kenya</option>
                 <option value="Tanzania">Tanzania</option>
                 <option value="uganda">uganda</option>
               </select>
-              <label for="subject">Subject</label>
+             <hr> <label for="subject">Subject</label>
               <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
               <input type="submit" value="Submit">
             </form>
@@ -36,5 +46,7 @@
         </div>
       </div>
       
-</body>
+</body> 
+<script src="js/script.js"></script>
+
 </html>

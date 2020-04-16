@@ -44,4 +44,9 @@ button:hover{
 }
 h1,p{
     color: whitesmoke;
+    padding: 20px;
+}
+.examples{
+    padding: 20px;
+    list-style: none;
 }

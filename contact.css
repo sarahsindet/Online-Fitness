@@ -1,0 +1,49 @@
+:root{
+    --accent:red;
+    --accentHover:#DE8A86;
+    --light:#F5F9FC;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-image: url(./images/woman-punching-the-hand-of-man-wearing-training-gloves-1544774.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+li,a,button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--accent); /* change the color*/
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav{
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav li a:hover{
+    color:var(--accentHover); /* change the color*/
+}
+button{
+    margin-left: 400px;
+    padding: 9px 25px;
+    background-color:var(--dark);  /* change the color*/
+    border: none;
+    border-radius: 50px;
+    transform:translateY(-27px);
+}
+button:hover{
+    background-color:var(--accentHover);  /* change the color*/
+}

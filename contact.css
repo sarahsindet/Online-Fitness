@@ -2,6 +2,7 @@
     --accent:red;
     --accentHover:#DE8A86;
     --light:#F5F9FC;
+    --dark:#304659;
 }
 *{
     box-sizing: border-box;
@@ -9,7 +10,7 @@
     padding: 0%;
 }
 body{
-    background-image: url(./images/woman-punching-the-hand-of-man-wearing-training-gloves-1544774.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-size:cover;
 }

@@ -1,9 +1,6 @@
 :root{
-    --accent:#EA918D;
+    --accent:red;
     --accentHover:#DE8A86;
-    --dark:#304659;
-    --dark80:rbga(48,70,89,8);
-    --dark60:rbga(48,70,89,6 );
     --light:#F5F9FC;
 }
 *{
@@ -51,11 +48,11 @@ button:hover{
     background-color:var(--accentHover);  /* change the color*/
 }
 h1,p{
-    color: var(--accent);
+    color: var(--light);
     padding: 20px;
-    background-color: var(--);
 }
-.examples{
-    padding: 20px;
+.examples>li{
+    color: var(--light);
+    margin-left: 20px;
     list-style: none;
 }

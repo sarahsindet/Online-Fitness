@@ -1,18 +1,42 @@
+:root{
+    --accent:#EA918D;
+    --accentHover:#DE8A86;
+    --dark:#304659;
+    --dark80:rbga(48,70,89,8);
+    --dark60:rbga(48,70,89,6 );
+    --light:#F5F9FC;
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0%;
 }
+#heading{
+    color:white;
+    transform: translateX(-520px);
+    float: left;
+    font-size: 4vh;
+    font-size: 6vh;
+}
+.banner{
+    background-image:url(./images/person-holding-black-smartphone-3912952.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
 body{
-    background-image: url(./images/woman-punching-the-hand-of-man-wearing-training-gloves-1544774.jpg);
+    background-image:url(./images/woman-punching-the-hand-of-man-wearing-training-gloves-1544774.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 li,a,button{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 500;
     font-size: 16px;
-    color: whitesmoke; /* change the color*/
+    color: var(--accent); /* change the color*/
     text-decoration: none;
 }
 header{
@@ -29,16 +53,19 @@ header{
     padding: 0px 20px;
 }
 .nav li a:hover{
-    color: yellow; /* change the color*/
+    color:var(--accentHover); /* change the color*/
 }
 button{
     margin-left: 400px;
     padding: 9px 25px;
-    background-color: yellowgreen;  /* change the color*/
+    background-color:var(--dark);  /* change the color*/
     border: none;
     border-radius: 50px;
     transform:translateY(-27px);
 }
 button:hover{
-    background-color: yellow;  /* change the color*/
+    background-color:var(--accentHover);  /* change the color*/
+}
+p{
+    color: wheat;
 }
